@@ -25,8 +25,28 @@
   <link rel="stylesheet" href="css/aos.css">
 
   <link rel="stylesheet" href="css/style.css">
-
 </head>
+<style>
+  .parallax {
+    /* The image used */
+    background-image: url("https://images.unsplash.com/photo-1528495612343-9ca9f4a4de28?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1867&q=80");
+
+    /* Set a specific height */
+    height: 500px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  @media only screen and (max-device-width: 1366px) {
+    .parallax {
+      background-attachment: scroll;
+    }
+  }
+</style>
 <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
 
 <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
@@ -94,7 +114,8 @@
             <div class="owl-carousel slide-one-item-alt-text">
               <div class="slide-text">
                 <h1>find your new style on the dresser</h1>
-                <p class="mb-5">Welcome to the dresser. We are a clothing platform that connects renters with owners so you
+                <p class="mb-5">Welcome to the dresser. We are a clothing platform that connects renters with owners so
+                  you
                   can rent for you next event.</p>
                 <!-- <p><a href="#" target="_blank" class="btn btn-outline-light py-3 px-5">Get Started</a></p> -->
               </div>
@@ -136,15 +157,11 @@
         </div>
       </div>
     </div>
-
-
+    
     <div class="site-section section-1" id="sustainable-section">
-
-
       <div class="container">
         <div class="row">
           <div class="col-lg-5 mr-auto mb-5" data-aos="fade-up">
-
             <div class="mb-5">
               <h2 class="section-title">sustainable? check.</h2>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem possimus distinctio ex. Natus totam
@@ -398,6 +415,8 @@
     </div>
   </div> -->
 
+  <div class="parallax"></div>
+
 
   <div class="site-section bg-light" id="services-section" data-aos="fade">
     <div class="container">
@@ -646,7 +665,8 @@
               <input type="submit" class="btn btn-primary rounded-0" value="Subscribe">
             </div>
           </form> -->
-          <img class="img-fluid" src="https://i1.wp.com/www.mustique-island.com/app/uploads/2018/03/download-on-app-store-png-click-the-qr-code-to-show-the-download-link-800.png?fit=800%2C263&ssl=1">
+          <img class="img-fluid"
+            src="https://i1.wp.com/www.mustique-island.com/app/uploads/2018/03/download-on-app-store-png-click-the-qr-code-to-show-the-download-link-800.png?fit=800%2C263&ssl=1">
         </div>
 
       </div>
